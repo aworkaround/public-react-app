@@ -1,0 +1,62 @@
+/** @format */
+html {
+    scroll-behavior: smooth;
+}
+#menu ul li:hover {
+    color: #00458b;
+}
+.privacy-policy {
+    cursor: pointer;
+}
+.privacy-policy:hover {
+    color: #00458b;
+}
+.row-center .col {
+    box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.1);
+    margin: 1em auto;
+    padding: 1em 2em;
+}
+
+.row-center img {
+    height: auto;
+    width: 100%;
+}
+.academics img {
+    width: 100px;
+    height: auto;
+}
+.academics .col .row {
+    margin: 0.5em auto;
+    padding: 0.5em 0;
+    max-height: 100px;
+    width: 200px;
+}
+.light {
+    color: #b1b1b1;
+}
+
+.row-center .col:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 5px 2px rgba(0,0,0,0.2);
+}
+
+.technologies {
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.technologies .col {
+    margin: 1em;
+    padding: 1em;
+    box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.1);
+    width: 220px;
+    height: 200px;
+}
+.technologies .col:hover {
+    box-shadow: 1px 1px 5px 2px rgba(0,0,0,0.2);
+}
+.technologies img {
+    width: 100px;
+    height: auto;
+}
